@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are Stromatolites?",
+      "timestamp": "2025-08-18T23:27:06.032973"
+    },
+    {
+      "role": "assistant",
+      "content": "I couldn't find relevant information for \"What are Stromatolites?\". Feel free to rephrase or try a different topic.",
+      "timestamp": "2025-08-18T23:27:36.553935"
+    },
+    {
+      "role": "user",
+      "content": "What can you learn and imagine about life in space from your own home here on Earth?",
+      "timestamp": "2025-08-18T23:28:08.841077"
+    },
+    {
+      "role": "assistant",
+      "content": "I couldn't find relevant information for \"What can you learn and imagine about life in space from your own home here on Earth?\". Feel free to rephrase or try a different topic.",
+      "timestamp": "2025-08-18T23:28:20.304417"
+    }
+  ],
+  "created_at": "2025-08-18T23:27:06.014754",
+  "title": "What Are Stromatolites",
+  "username": "Raahul",
+  "updated_at": "2025-08-18T23:28:20.306420"
+}

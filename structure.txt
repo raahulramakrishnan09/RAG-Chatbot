@@ -1,0 +1,40 @@
+chatbot-project/
+├── config/
+│   ├── __init__.py
+│   └── settings.py              # Centralized configuration
+├── backend/
+│   ├── __init__.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── auth.py              # Authentication endpoints
+│   │   ├── documents.py         # Document management endpoints
+│   │   ├── sessions.py          # Session management endpoints
+│   │   └── users.py             # User management endpoints
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py              # User model and auth logic
+│   │   └── session.py           # Session management logic
+│   └── utils/
+│       ├── __init__.py
+│       └── security.py          # Security utilities
+├── ai/
+│   ├── __init__.py
+│   ├── chatbot.py               # Main chatbot logic
+│   ├── document_manager.py      # Document processing and retrieval
+│   └── chains/
+│       ├── __init__.py
+│       └── qa_chain.py          # Question-answering chain logic
+├── app.py                       # Main Flask application
+├── client.py                    # API client for testing
+├── requirements.txt
+├── data/                        # User and metadata storage
+├── documents/                   # PDF storage
+├── sessions/                    # Chat sessions
+└── chroma_db/                   # Vector database
+
+--------------------------------------------------------------------
+Original → New Mapping:
+auth_manager.py → backend/models/user.py
+document_manager.py + document_metadata.py → ai/document_manager.py
+Main app logic → Split across backend/api/ files
+Configuration → config/settings.py

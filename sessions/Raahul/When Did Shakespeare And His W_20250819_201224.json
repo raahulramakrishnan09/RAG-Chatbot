@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "when did shakespeare and his wife died?",
+      "timestamp": "2025-08-19T20:12:24.720103"
+    },
+    {
+      "role": "assistant",
+      "content": "Shakespeare died on 23 April 1616.  The provided text does not state the date of his wife's death.",
+      "timestamp": "2025-08-19T20:12:27.929306"
+    },
+    {
+      "role": "user",
+      "content": "when did shakespeare's wife died?",
+      "timestamp": "2025-08-19T20:12:51.892264"
+    },
+    {
+      "role": "assistant",
+      "content": "I couldn't find relevant information for 'When did Shakespeares wife die?'. Feel free to rephrase or try a different topic.",
+      "timestamp": "2025-08-19T20:12:56.793534"
+    }
+  ],
+  "created_at": "2025-08-19T20:12:24.704073",
+  "title": "When Did Shakespeare And His W",
+  "username": "Raahul",
+  "updated_at": "2025-08-19T20:12:56.796538"
+}
