@@ -9,7 +9,6 @@ A powerful, enterprise-ready chatbot API that enables intelligent conversations 
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
   
 ##  Features
 
@@ -99,45 +98,6 @@ ADMIN_MODE = "true"
 | **Employee** | ✅ | ❌ | ❌ |
 | **Manager** | ✅ | ✅ | ❌ |
 | **Admin** | ✅ | ✅ | ✅ |
-
-##  Project Structure
-
-```
-Project/
-├── config/
-│   ├── __init__.py
-│   └── settings.py                 # Centralized configuration
-├── backend/
-│   ├── __init__.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   ├── auth.py                 # Authentication endpoints
-│   │   ├── documents.py            # Document management
-│   │   ├── sessions.py             # Session management
-│   │   ├── chat.py                 # Chat endpoints
-│   │   └── dropdown.py             # Dropdown/utility endpoints
-│   └── models/
-│       ├── __init__.py
-│       ├── user.py                 # User model and management
-│       └── session.py              # Session model
-├── ai/
-│   ├── __init__.py
-│   ├── chatbot.py                  # Main chatbot service
-│   ├── document_manager.py         # Document processing
-│   └── chains/
-│       ├── __init__.py
-│       └── qa_chain.py             # QA chain with LangChain 1.0
-├── data/
-│   ├── document_metadata.json      # Document metadata
-│   └── users.json                  # User profile & User's chat sessions
-├── documents/                      # PDF storage
-├── chroma_db/                      # Vector database
-├── app.py                          # Main Flask application
-├── client.py                       # Testing files
-├── debug_chatbot.py                # Testing files
-├── requirements.txt                # Python dependencies
-└── README.md                       # This file
-```
 
 ###  Version History
 
